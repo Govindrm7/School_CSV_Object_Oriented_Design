@@ -1,28 +1,32 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/YBAXt7xA)
-# Welcome to the course CSYE6200 - Object Oriented Design
-> Northeastern University, College of Engineering
+# School Class Project
 
+This project is a part of an assignment that involves creating a School class with two lists of students, implementing various methods, and performing sorting based on different criteria. The project also includes reading data from CSV files and creating an inner class for student details.
 
-## Professor: Daniel Peters
+## Project Requirements
+- Create a `School` class with the following:
+  - Two lists: `studentRoster` (using Student API) and `personRoster` (using Person API)
+  - Methods to add students to each list
+  - Methods to sort students in each list
+  - Override `toString()` to display both lists
 
-### Requirements
-1. Eclipse or VS Code or IntelliJ.
+- Add 5 students to each list
+  - `Person` as the superclass
+  - `Student` as the derived subclass of Person
 
-Note: If you are using Eclipse, please have git CLI installed on your system or GitHub Desktop to commit the code in this repository
+- Sort each list of students 4 times:
+  1. By ID and display both lists
+  2. By Age and display both lists
+  3. By Last Name and display both lists
+  4. By GPA and display both lists
 
-### SetUp Instructions
-1. Please clone the repository on your local system
-2. For Eclipse Import the project as Existing Maven Project, For IntelliJ you can directlty open it using 'Get from VCS'.
-4. All code should be pushed to the main branch
-3. Ensure the GitHub actions are successful post push
+- Read student data from CSV files
+- Create an inner class for student parents' details
+- Sort all student details based on:
+  1. By ID and display both lists
+  2. By Age and display both lists
+  3. By Last Name and display both lists
+  4. By GPA and display both lists
 
-Submissions will have deadlines, failed GitHub Actions would result in point deductions.
-
-### References
-1. Cloning a Repository: <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
-2. Any GitHub Setup: Please refer to the Git & GitHub Fundamentals Repository shared to you by your respective TA and refer the README.md section
-
-Please reach out to your respective TA if you need any help in regards with submission/ GitHub
-
-Author:
-- Ruchika Sharma (sharma.ruc@northeastern.edu)
+## Additional Instructions
+- The studentRoster and personRoster should not have static data added through their objects; instead, the data should be taken from CSV files.
+- Create an inner class for the student class and store the parents' details in them. The parents' details should also be taken from the CSV file.
